@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VCR OSD Mono', sans-serif;
+    font-weight: bold;
+}
+.link a:hover{
+    color: rgb(255, 0, 128);
+}
+body.home{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5622AQEt0Xy_aHEYtA/feedshare-shrink_2048_1536/0/1652796464954?e=1657756800&v=beta&t=q16AiecwDPP3owt_U1GKkFSlRb32VoCdlyxDPVPVPuA);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    padding: 0 8;
+}
+body.intro{
+    background-color: black;
+}
+body.interests{
+    background-color: black;
+    background-image:url();
+}
+body.socials{
+    background-color: black;
+    background-image:url();
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.highlightme{
+    background-color:black;
+    padding:0.6em 0.6em;
+}
+.header .navbar{
+    background:url(https://media-exp1.licdn.com/dms/image/C5622AQEt0Xy_aHEYtA/feedshare-shrink_2048_1536/0/1652796464954?e=1657756800&v=beta&t=q16AiecwDPP3owt_U1GKkFSlRb32VoCdlyxDPVPVPuA);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100%;
+    padding:1.1rem 0rem;
+}
+.header .navbar-brand{
+    width:7.5rem;
+    margin-top: -0.1rem;
+}
+.resize{
+    object-fit: cover;
+    position:relative;
+    width: 600px;
+    height: auto;
+}
+.resize1{
+    width: 8%;
+}
+.hero-heading{
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+    height: 100px;
+    width: 100%;
+    line-height:2;
+}
+.project-section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px 100px;
+    position: fixed;
+    top: 0;
+    transition: 1s;
+    opacity: 0;
+}
+
+.interests-card{
+    height: 100%;
+    position: relative;
+}
+.interests-img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: .5s;
+}
+.interests-container{
+    display: grid;
+    margin: auto;
+    height: auto;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 100px;
+}
+.interests-content{
+    position: relative;
+    color: white;
+    padding: 60px;
+    transition: .5s;
+    opacity: 0;
+}
+.interests-title{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: absolute;
+    font-weight: 300;
+}
+.interests-info{
+    margin: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: absolute;
+}
+.interests-card:hover .interests-img{
+    filter:blur(20px);
+}
+.interests-card:hover .interests-content{
+    opacity: 1;
+}
+.intro-info{
+    color: white;
+    font-size: 12px;
+    line-height: 35px;
+    margin-top: -450px;
+    position: relative;
+    padding-left:550px; 
+    text-align: center;
+}
+.title{
+    color: white;
+    text-transform: capitalize;
+    font-size: 40px;
+    height: 100px;
+    width: 100%;
+    line-height:2.5;
+    padding-top: 20px;
+}
